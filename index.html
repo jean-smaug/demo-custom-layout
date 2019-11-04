@@ -5,10 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Demo mutation observer</title>
+    <style>
+      div {
+        resize: both;
+        overflow: auto;
+      }
+      #box1 {
+        height: 20px;
+        background: lightsalmon;
+        /* width: 200px; */
+      }
+
+      #box2 {
+        height: 20px;
+        background: lightblue;
+        width: 200px;
+      }
+    </style>
   </head>
   <body>
-      <div id="box1"></div>
-      <div id="box2"></div>
-      <script src="./app.js"></script>
+    <div id="box1">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae,
+        dolor quo veniam architecto mollitia qui dicta, iste fugiat consequatur
+        magni rerum recusandae odit non beatae, molestiae cumque reiciendis
+        doloribus ex!
+      </p>
+    </div>
+    <div id="box2">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae,
+        dolor quo veniam architecto mollitia qui dicta, iste fugiat consequatur
+        magni rerum recusandae odit non beatae, molestiae cumque reiciendis
+        doloribus ex!
+      </p>
+    </div>
+    <script src="./app.js"></script>
   </body>
 </html>
